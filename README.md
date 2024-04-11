@@ -11,9 +11,15 @@ Although whisper is highly configurable, the idea here is to provide very simple
 
 #### tobacco_wbr62a00.mp4
 
+Note - at 26.5mb, the sample video file is slightly too large to be stored on github. You can download this video at:
+https://archive.org/download/tobacco_wbr62a00/tobacco_wbr62a00.mp4
+
+You can also download this file by running the workbook: Whisper-On-Video-Remote-URI.ipynb
+
 The sample video file, tobacco_wbr62a00.mp4, is a youth anti-smoking produced by Philip Morris in 2000. It is hosted on the Internet Archives and is part of the Industry Documents Library, a large collection of files from industries that have affected public health.  The file is about four minutes long and contains logos, embedded text, gestures, and speech. This repository will only consider the speech-to-text extraction. 
 
-For more information on this specific file, please
+For more information on this specific file, please see the Tobbaco Archives page at: 
+https://archive.org/details/tobacco_wbr62a00
 
 Note: If you're interested in embedded text, logos, and other visual information in addition to speech-to-text, you may be interested in Google VideoIntelligence API. For more information, see:
 
@@ -25,7 +31,7 @@ https://github.com/geoffswc/IDLPublicDatasets/blob/main/Parse-VideoIntelligence-
 
 This workbook provides a short, simple example of how to extract a transcript from a local video file (tobacco_wbr62a00.mp4)
 
-#### Whisper-On-Video-Remove-URI.ipynb
+#### Whisper-On-Video-Remote-URI.ipynb
 
 This workbook provides a short, simple example for downloading an mp4 file from a public URI and extracting the transcript. 
 
