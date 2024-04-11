@@ -11,17 +11,19 @@ Although whisper is highly configurable, the idea here is to provide very simple
 
 #### tobacco_wbr62a00.mp4
 
-Note - at 26.5mb, the sample video file is slightly too large to be stored on github. You can download this video at:
+The sample video file, tobacco_wbr62a00.mp4, is a collection of youth anti-smoking ads produced by Philip Morris in 2000. It is hosted on the Internet Archives and is part of the Industry Documents Library, a large collection of files from industries that have affected public health.  The file is about four minutes long and contains  logos, embedded text, gestures, and speech that may be of interest to researchers. This repository will only consider the speech-to-text extraction. 
+
+Note - at 26.5mb, the sample video file is slightly too large to be uploaded to github through the Web UI (there are other ways to upload a larger file, but I'd rather keep the download size for this repo small). 
+
+To get the sample document,you can download the mp4 video from the tobacco archives at:
 https://archive.org/download/tobacco_wbr62a00/tobacco_wbr62a00.mp4
 
 You can also download this file by running the workbook: Whisper-On-Video-Remote-URI.ipynb
 
-The sample video file, tobacco_wbr62a00.mp4, is a youth anti-smoking produced by Philip Morris in 2000. It is hosted on the Internet Archives and is part of the Industry Documents Library, a large collection of files from industries that have affected public health.  The file is about four minutes long and contains logos, embedded text, gestures, and speech. This repository will only consider the speech-to-text extraction. 
-
 For more information on this specific file, please see the Tobbaco Archives page at: 
 https://archive.org/details/tobacco_wbr62a00
 
-Note: If you're interested in embedded text, logos, and other visual information in addition to speech-to-text, you may be interested in Google VideoIntelligence API. For more information, see:
+Note: If you're interested in transcribing embedded text, logos, and other visual information in addition to speech-to-text, you may be interested in Google VideoIntelligence API. For more information, see:
 
 https://github.com/geoffswc/IDLPublicDatasets/blob/main/Parse-VideoIntelligence-JSON-Demo.ipynb
 
