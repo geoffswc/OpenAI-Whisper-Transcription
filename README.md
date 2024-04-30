@@ -37,6 +37,10 @@ This workbook provides a short, simple example of how to extract a transcript fr
 
 This workbook provides a short, simple example for downloading an mp4 file from a public URI and extracting the transcript. 
 
+#### Whisper-Different-Model-Test.ipynb
+
+This workbook displays the run time (wall time and CPU time) and transcriptions for the various Whisper models (tiny, base, medium, large) applied to the sample video file. 
+
 ### Installation issues:
 
 #### Install ffmpeg
